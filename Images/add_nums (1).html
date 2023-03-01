@@ -1,0 +1,38 @@
+<!-- Create a front end that allows the user to enter details of the item
+purchased (item name, item price (option), number of items bought). On clicking of the submit
+button, the total cost for the item purchased should be calculated and displayed. On clicking
+on the ‘paid’ button, appropriate alert box should be popped up.
+-->
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Total Price</title>
+        <h3 align="center">Total Billing</h3>
+        Item Name: <input type ="text" id="Name"/><br><br>
+        Item Price: <input type="text" id="price" /><br><br>
+        Item Quantity: <input type="text" id="quantity"/> <br><br>
+        <input type ="button" onclick = "calculate()" value="SUBMIT"/>
+        <p>The Total price is:<span id="result"></span></p>
+        <input style="display: none;" id="paid_button" type = "button" value="PAID" onclick="alertsms()"/>
+    </head>
+    <body>
+        <script>
+
+            function calculate()
+            {
+                x = document.getElementById("price").value;
+                y = document.getElementById("quantity").value;
+                res = x*y;
+                document.getElementById("result").innerHTML = res;
+                document.getElementById("paid_button").style.display = "block";
+            }
+            function alertsms()
+            {
+                alert("HI, paid successfully!");
+            }
+        </script>
+
+    </body>
+</html>

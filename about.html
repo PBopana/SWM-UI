@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>SWM Website Design</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;600;700&display=swap" rel="stylesheet"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+</head>
+<body>
+	<section class="header">
+		<nav>
+			<!--<a href="index.html"><img src="Images/swmlogo.png"></a>-->
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-window-close" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="">BLOG</a></li>
+					<li><a href="Login.html">LOGIN/REGISTER</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+
+		</nav>
+
+		<div class="text-box">
+			<h1>About Us</h1>
+			<p><strong>We propose a cost-effective web based system to efficiently manage the</strong><br><strong>overwhelming amounts of garbage collected each day in the South Bangalore Zone,</strong><br><strong>while also providing solutions and spreading awareness on waste </strong><br><strong>management methods like upcycling, proper segregation of waste and composting</strong></p>
+		
+		</div>
+
+	</section>
+
+	<!--mission/vision-->
+	<section class="facilities">
+		<h1>Our Goals</h1>
+		
+		<div class="row">
+			<div class="facilities-col">
+				<img src="Images/bins.png">
+			</div>
+
+			<div class="facilities-col">
+				<img src="Images/Our Mission(2).png">
+			</div>
+
+			<div class="facilities-col">
+				<img src="Images/Our Mission.png">
+			</div>
+
+			<div class="facilities-col">
+				<img src="Images/Our Vision.png">
+			</div>
+
+</div>
+
+	</section>
+
+
+
+	<!---areas-->
+	<section class="area">
+		<div style="overflow-x:auto;">
+		<h1>Areas We Cover</h1>
+		<br>
+
+		 <table class="center">
+  			<tr>
+    			<th>SNo.</th>
+    			<th>Area</th>
+    			<th>SNo.</th>
+    			<th>Area</th>
+    			<th>SNo.</th>
+    			<th>Area</th>
+
+    		</tr>
+ 
+  			<tr>
+    			<td>1</td>
+    			<td>Anjanapura</td>
+    			<td>5</td>
+    			<td>Electronic City</td>
+    			<td>9</td>
+    			<td>JP Nagar</td>
+  			</tr>
+  			
+  			<tr>
+    			<td>2</td>
+    			<td>Banashankari</td>
+    			<td>6</td>
+    			<td>Hosur Road</td>
+    			<td>10</td>
+    			<td>Kanakapura</td>
+  			</tr>
+
+  			<tr>
+    			<td>3</td>
+    			<td>Basvanagudi</td>
+    			<td>7</td>
+    			<td>HSR Layout</td>
+    			<td>11</td>
+    			<td>Koramangala</td>
+  			</tr>
+  			
+  			<tr>
+    			<td>4</td>
+    			<td>Bannerghatta</td>
+    			<td>8</td>
+    			<td>Jaynagar</td>
+    			<td>12</td>
+    			<td>Silk Board</td>
+  			</tr>
+ 
+  			
+</table> 
+</div>
+</section>
+		
+
+	<!-- Facilities-our services-->
+	<section class="facilities">
+		<h1>OUR SERVICES</h1>
+
+		<div class="row">
+			<div class="facilities-col">
+				<img src="Images/dustbin.jpg">
+				<h3>Trash Pickup & Bin Creation</h3>
+				<p>The clients can book accordingly for trash pick up from any place in South Bangalore. </p>
+			</div>
+
+			<div class="facilities-col">
+				<img src="Images/food.jpg">
+				<h3>Donate Food</h3>
+				<p>Choose to donate leftover food if available in adequate amounts rather than throwing it out</p>
+
+			</div>
+
+			<div class="facilities-col">
+				<img src="Images/recyclables.png">
+				<h3>Sell Recyclables</h3>
+				<p>We will collect your recyclable wastes and
+						pay you for it based on the garbage weight. </p>
+			</div>
+
+			<div class="facilities-col">
+				<img src="Images/awareness1.jpg">
+				<h3>Spreading Awareness</h3>
+				<p>Learn how to effectively dispose off different kinds of waste and waste management methods like upcycling, proper
+				segregation of waste and composting.</p>
+			</div>
+
+			
+
+</div>
+
+	</section>
+
+
+
+<section class="footer">
+	<h4>Contact Us</h4>
+	<p>Telephone: 080-12345678 / 080-98765432 | Email: swm@gmail.com</p>
+
+
+</section>
+
+
+<!--Javascript-->
+
+<script>
+	var navLinks= document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right="0";
+	}
+
+	function hideMenu(){
+		navLinks.style.right="-200px";
+	}
+</script>
+</body>
+</html>

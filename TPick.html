@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style2.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+    <div class="title">Trash Pickup Request</div>
+    <div class="content">
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Full Name</span>
+            <input type="text" placeholder="John" required>
+          </div>
+
+           <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="text" placeholder="+91-123xxxxxxx" required>
+          </div>
+          <br>
+
+          <div class="input-box">
+             <span class="details">Type Of Waste</span>
+            <select name="tow" class="details">
+              <option value="Dry Waste">Dry Waste</option>
+              <option value="Wet Waste">Wet Waste</option>
+              <option value="Dry and Wet Waste">Dry and Wet Waste</option>
+              <option value="E-Waste">E-Waste</option>
+              <option value="Sanitary Waste">Sanitary Waste</option>
+              <option value="Mix">Mix</option>
+            </select>
+          </div>
+          <br>
+           <div class="Payment-details">
+          <input type="radio" name="pm" id="dot-1">
+          <input type="radio" name="pm" id="dot-2">
+          <input type="radio" name="pm" id="dot-3">
+          <span class="payment-title">Mode of Payment</span>
+          <div class="category">
+            <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="pm">Cash</span>
+          </label>
+          <br>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span class="pm">Card</span>
+          </label>
+          <br>
+          <label for="dot-3">
+            <span class="dot three"></span>
+            <span class="pm">Mobile</span>
+            </label>
+          </div>
+        </div>
+
+            <div class="input-box">
+            <span class="details">Address</span>
+            <textarea name="message" placeholder="Your address" required></textarea>
+          </div>  
+        
+        
+        <div class="button">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+  </div>
+ <p>Request bin creation? <a href="CreateBin.html"> Create Bin</a></p>
+
+</body>
+</html>

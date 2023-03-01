@@ -1,0 +1,14 @@
+body{
+	margin:  0px;
+	padding: 0px;
+}
+
+.container{
+	display: grid;
+	justify-content: center;
+
+}
+
+.m{
+	margin-bottom:15px;
+}
